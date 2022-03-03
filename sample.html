@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>다모애</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="d-none">다모애 테라피 샴푸</h1>
+    <div class="side-banner">
+        <a href="#" onclick="alert('이벤트가 마감되었습니다.')">
+        <img src="images/side_img.png" alt="다모애 헤어토닉"></a>
+    </div>
+    <header>
+         <h2 class="d-none">헤더</h2>
+         <div class="header-container">
+             <div class="main-logo">
+                 <a href="#"><img src="images/logo.png" alt="(주)다모애>"></a>
+             </div>
+             <nav class="header-menu">
+                 <h3 class="d-none">내비게이션 메뉴</h3>
+                 <ul>
+                     <li><a href="#">다모애</a></li>
+                     <li><a href="#">제품소개</a></li>
+                     <li><a href="#">샘플신청</a></li>
+                     <li><a href="#">고객센터</a></li>
+                 </ul>
+             </nav>
+             <div class="ex-link">
+                 <ul>
+                     <li><a href="#"><img src="images/top_icon1.png" alt="홈"></a></li>
+                     <li><a href="#"><img src="images/top_icon2.png" alt="메일"></a></li>
+                     <li><a href="#"><img src="images/top_icon3.png" alt="검색"></a></li>
+                 </ul>
+             </div>
+         </div>
+    </header>
+    <div class="hero">
+        <div class="hero-wrap">
+            <div class="new"><img src="images/visual_img.png" alt="테라피 골드 샴푸"></div>
+        </div>
+    </div>
+
+    <section id="main" class="subpage">
+        <h2>sample</h2>
+        <h3>무료샘플신청</h3>
+        <div class="main-wrap">
+            <article>
+                <h2 class="d-none">신청서 및 개인정보 이용방침</h2>
+                <h4>■ 신청서</h4>
+                <form name="sample-form">
+                    <div class="form-wrap">
+                        <div class="user-form">
+                            <ul>
+                                <li>
+                                    <label for="UserName">이름</label>
+                                    <input type="text" id="UserName" name="UserName" maxlength="20" placeholder="홍길동">
+                                </li>
+                                <li>
+                                    <label for="UserName">이메일</label>
+                                    <input type="email" id="UserEmail" name="UserEmail" placeholder="damoae@example.com">
+                                </li>
+                                <li>
+                                    <label for="UserSNS">SNS</label>
+                                    <input type="url" id="UserSNS" name="UserSNS" placeholder="https://insta.com/your-id">
+                                </li>
+                                <li>
+                                    <label for="UserAddr">주소</label>
+                                    <input type="text" id="UserAddr1" name="UserAddr1" placeholder="검색">
+                                    <input type="button" id="search" onclick="address_find()" value="검색">
+                                    <input type="text" id="UserAddr2" name="UserAddr2" placeholder="상세 주소">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="agree-form">
+                            <h4>■ 개인정보 수집 &middot; 이용 동의</h4>
+                            <div class="agreement">
+                                귀하께서는 본 안내에 따른 개인정보 수집, 이용에 대하여 동의를 거부하실 권리가 있습니다. 다만, 귀하가 개인정보의 수집/이용에 동의를 거부하시는 경우에 선발 과정에 있어 불이익이 발생할 수 있음을 알려드립니다.
+                                귀하께서는 본 안내에 따른 개인정보 수집, 이용에 대하여 동의를 거부하실 권리가 있습니다. 다만, 귀하가 개인정보의 수집/이용에 동의를 거부하시는 경우에 선발 과정에 있어 불이익이 발생할 수 있음을 알려드립니다.
+                                귀하께서는 본 안내에 따른 개인정보 수집, 이용에 대하여 동의를 거부하실 권리가 있습니다. 다만, 귀하가 개인정보의 수집/이용에 동의를 거부하시는 경우에 선발 과정에 있어 불이익이 발생할 수 있음을 알려드립니다.
+                                귀하께서는 본 안내에 따른 개인정보 수집, 이용에 대하여 동의를 거부하실 권리가 있습니다. 다만, 귀하가 개인정보의 수집/이용에 동의를 거부하시는 경우에 선발 과정에 있어 불이익이 발생할 수 있음을 알려드립니다.
+                                귀하께서는 본 안내에 따른 개인정보 수집, 이용에 대하여 동의를 거부하실 권리가 있습니다. 다만, 귀하가 개인정보의 수집/이용에 동의를 거부하시는 경우에 선발 과정에 있어 불이익이 발생할 수 있음을 알려드립니다.
+                                귀하께서는 본 안내에 따른 개인정보 수집, 이용에 대하여 동의를 거부하실 권리가 있습니다. 다만, 귀하가 개인정보의 수집/이용에 동의를 거부하시는 경우에 선발 과정에 있어 불이익이 발생할 수 있음을 알려드립니다.
+                            </div>
+                            <input type="checkbox" id="UserAgree" name="UserAgree">
+                            <label for="UserAgree">동의합니다.</label>
+                        </div>
+                    </div>
+                    <div class="btns">
+                        <a href="#"><input type="submit" value="신청"></a>
+                        <a href=""><input type="reset" value="취소"></a>
+                    </div>
+                </form>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <h2 class="d-none">다모애 웹사이트 저작권 및 연락처</h2>
+        <div class="footer-wrap">
+            <div class="etc-links">
+                <ul>
+                    <li><a href="#">개인정보취급방침</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">오시는 길</a></li>
+                </ul>
+            </div>
+            <address>
+                <p>상호 : 다모애</p>
+                <p>주소 : 광주광역시 서구 경열로 3, 다모애 테라피 연구소</p>
+                <p>대표전화 : 032-4564-4545</p>
+                <p>개인정보취급관리 책임자 : 책임인장</p>
+                <p>이메일 주소 : 메일 잘 확인안함</p>
+                <p class="copy">&copy;2017 damoe all right reserved.</p>
+            </address>
+            <div class="footer-logo">
+               <a href="#"><img src="images/footer_logo.png" alt="푸터로고"></a>
+            </div>
+        </div>
+    </footer>
+                        <script>
+                            function address_find() {
+                                alert("점검중")
+                            }
+                        </script>
+</body>
+</html>

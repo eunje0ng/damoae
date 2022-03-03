@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+/*google font sizing the icon*/
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+/*coloring the icon*/
+.material-icons.orange600 { color: #9c3245; }
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+body {
+    background: url("images/bg.png");
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+.d-none {
+    display: none;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.side-banner {
+    position: fixed;
+    right: 5%;
+    top: 15%;
+}
+
+.header-container {
+    width: 1000px;
+    margin: 80px auto;
+    height: 200px;
+}
+.main-logo {
+    float: left;
+}
+.header-menu {
+    float: left;
+    font-size: 18px;
+    font-weight: 500;
+    color: #666666;
+    border-left: 1px solid #000000;
+    padding: 0 20px;
+    margin-left: 70px;
+}
+.header-menu li:hover {
+    color: #9c3245;
+}
+.ex-link {
+    float: right;
+}
+.ex-link li {
+    float : left;
+    margin-left: 5px;
+}
+
+.hero {
+    height: 400px;
+    background: url("images/visual_bg.jpg") no-repeat center / cover;
+}
+.hero-wrap {
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+.new {
+    position: absolute;
+    right: 0;
+    bottom: -70px;
+}
+/*--------------샘플신청 페이지--------------*/
+
+#main h2, #main h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+#main h2 {
+    margin-top: 70px;
+    font-size: 25px;
+}
+#main h3 {
+    color: #666666;
+    font-weight: 500;
+} 
+.subpage .main-wrap article:nth-child(1) {
+    width: 100%;
+    overflow: hidden;
+}
+.user-form {
+    background-color: #9c3245;
+    padding: 30px;
+    color: white;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+.user-form li {
+    margin-bottom: 15px;
+}
+.user-form label {
+    margin-right: 20px;
+    display: inline-block;
+    width: 100px;
+}
+.user-form input {
+    padding: 15px 0;
+    text-indent: 15px;
+    border: 1px solid wheat;
+    border-radius: 15px;
+    outline: none;
+}
+.user-form input:focus {
+    background-color: rgb(221, 221, 221);
+}
+#UserName, #UserEmail, #UserSNS {
+    width: calc(100% - 150px);
+}
+#UserAddr1 {
+    width: calc(100% - 253px);
+    margin-bottom: 15px;
+}
+#UserAddr2 {
+    margin-left: 124px;
+    width: calc(100% - 150px);
+}
+#search {
+    width: 100px;
+    text-indent: 0;
+    vertical-align: top;
+    padding: 14px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.agree-form > h4 {
+    margin-top: 50px;
+}
+.agreement {
+    border: 1px solid #bbbbbb;
+    padding: 30px;
+    background-color: whitesmoke;
+    margin: 15px 0;
+    overflow: hidden scroll;
+    height: 100px;
+}
+#UserAgree {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+input[type=checkbox]+label {
+    font-size: 18px;
+}
+.btns {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.btns input {
+    padding: 20px ;
+    width: 200px;
+    margin-top: 50px;
+    margin-right: 20px;
+    border: 1px solid #bbbbbb;
+}
+.btns input:hover {
+    background-color: #9c3245;
+}
+/*-----------------------------------------*/
+.main-wrap {
+    max-width: 1000px;
+    margin: 70px auto;
+    overflow: hidden;
+}
+.main-wrap article {
+    float: left;
+}
+.main-wrap article h2 {
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-size : 20px;
+    font-weight: 700;
+}
+span {
+    text-transform: uppercase;
+}
+.theraphy-items li {
+    float: left;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    position : relative;
+}
+.theraphy-items li:hover {
+    border: 1px solid #9c3245
+}
+.theraphy-items li:hover img{
+    transform: scale(1.2);
+}
+.theraphy-items li:hover img {
+    transition: all .3s;
+}
+.overlay {
+    display: none;
+    position: absolute;
+    background: rgba(0,0,0,.3);
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+.theraphy-items li:hover .overlay {
+    display: block;
+}
+.choice-bt {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.choice-bt div {
+    display: block;
+    margin-bottom: 10px;
+}
+.cart {
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 10px;
+}
+.cart:hover .material-icons.md-light {
+    color :#9c3245;
+}
+.buy {
+    border: 1px solid white;
+    border-radius: 100px;
+    padding: 10px;
+}
+.buy:hover .material-icons.md-light {
+    color: #9c3245;
+}
+.theraphy-items li:nth-child(1) {
+    margin-right: 21px;
+}
+.theraphy-items li:nth-child(2) {
+    margin-right: 22px;
+}
+
+.outer-wrap {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 50px 0;
+}
+.aside-wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+.aside-wrap::after { /* clearfix 기법 */
+    content: '';
+    display: block;
+    clear: both;
+}
+.aside-wrap h3 {
+    float : left;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.aside-wrap p {
+    float: left;
+    font-size: 14px;
+}
+/*---------------------------------------------------------------------------------*/
+footer {
+    background-color: rgba(0, 0, 0, 0.37);
+    color: white;
+    height: 230px;
+}
+.footer-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.etc-links {
+    margin: 25px 0;
+}
+.etc-links li {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.ect-links li:hover {
+    color: #000;
+}
+address p {
+    display: inline-block;
+}
+p.copyright {
+    display: block;
+}
+.footer-logo {
+    position: absolute;
+    right: 0;
+}
