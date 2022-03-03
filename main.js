@@ -12,5 +12,5 @@ function close_mailer(){
 close_mailer();
 
 function address_find(){
-    alert("안됑!")
+    alert("안됑!!")
 }

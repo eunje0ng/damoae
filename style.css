@@ -66,6 +66,62 @@ body {
     padding-left: 20px;
     margin: 30px;
 }
+.email-form {
+    background-color: #9c3245;
+    padding: 30px;
+    color: white;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+.email-form li {
+    margin-bottom: 10px;
+}
+.email-form label{
+    display: inline-block;
+    font-size: large;
+    margin: 0 30px;
+    width: 100px;
+}
+.email-form input {
+    padding: 15px 0;
+    text-indent: 10px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    outline: none;
+}
+.email-form input:focus {
+    background-color: #ddd;
+}
+#E-Name {
+    width: 100px;
+}
+#E-Email {
+    width: 205px;
+}
+#E-text {
+    width: calc(100% - 200px);
+    height: 100px;
+}
+.e-btns {
+    text-align: center;
+    padding: 20px;
+}
+.e-btns input {
+    padding: 10px;
+    width: 160px;
+    background-color: white;
+    border: 7px solid #555;
+    color: #555;
+    font-size: large;
+    font-weight: 1000;
+}
+.e-btns input:hover {
+    padding: 15px;
+    width: 180px;
+    background-color: rgba(204, 204, 204, 0.425);
+    border : 7px solid #9c3245;
+    color: #9c3245;
+}
 
 .d-none {
     display: none;
